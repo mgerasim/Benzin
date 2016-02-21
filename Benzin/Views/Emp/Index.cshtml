@@ -1,0 +1,49 @@
+﻿@model List<Benzin.Models.Emp>
+
+@{
+    ViewBag.Title = "Мои заправки";
+}
+
+    @Html.ActionLink("Добавить", "Create", null, new { @class = "btn btn-primary" })
+
+<table class="table table-active">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Дата заправки</th>
+            <th>Километраж</th>
+            <th>Количество литров</th>
+            <th>Сумма</th>
+            <th></th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.ID
+                </td>
+                <td>
+                    @item.payed_at.ToShortDateString()
+                </td>
+                <td>
+                    @item.probeg
+                </td>
+                <td>
+                    @item.litrs
+                </td>
+                <td>
+                    @item.summa
+                </td>
+                <td>
+                    @Html.ActionLink("Редактировать", "Edit", new { id = item.ID })
+                </td>
+                <td>
+                    @Html.ActionLink("Удалить", "Delete", new { id = item.ID })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

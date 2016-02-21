@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benzin", "Benzin\Benzin.csproj", "{834EC974-3C61-43A6-A04D-76A1E8E6E8F3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenzinConsole", "BenzinConsole\BenzinConsole.csproj", "{12C04B71-ED3E-4A22-810F-A32E3B24A82B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{834EC974-3C61-43A6-A04D-76A1E8E6E8F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{834EC974-3C61-43A6-A04D-76A1E8E6E8F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{834EC974-3C61-43A6-A04D-76A1E8E6E8F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12C04B71-ED3E-4A22-810F-A32E3B24A82B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12C04B71-ED3E-4A22-810F-A32E3B24A82B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12C04B71-ED3E-4A22-810F-A32E3B24A82B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12C04B71-ED3E-4A22-810F-A32E3B24A82B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
